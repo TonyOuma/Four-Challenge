@@ -1,13 +1,11 @@
 // Sass mixin
-@mixin font-18 {
-    font-size: 18px;
+$font-weights: (200, 400, 600);
+@each $weight in $font-weights {
+    .f-#{$weight} {
+        font-weight: #{$weight};
+    }
 }
 
-@mixin font-w700 {
-    font-weight: 700;
-    ;
-}
-
-@mixin font-w400 {
-    font-weight: 400;
+@mixin font-size {
+    font-size: 15px;
 }

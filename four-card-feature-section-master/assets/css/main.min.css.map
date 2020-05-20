@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACGI,AAAA,MAAM,AAAQ,CACV,WAAW,CAAC,GAAC,CAChB,AAFD,AAAA,MAAM,AAAQ,CACV,WAAW,CAAC,GAAC,CAChB,AAFD,AAAA,MAAM,AAAQ,CACV,WAAW,CAAC,GAAC,CAChB,AKLL,AAAA,IAAI,AAAC,CACD,UAAU,CJQD,OAAe,CIP3B",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/abstracts/_mixins.scss",
+        "../sass/abstracts/_variables.scss",
+        "../sass/components/_buttons.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_navigation.scss",
+        "../sass/pages/_home.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
