@@ -1,0 +1,35 @@
+// Home specific styles
+body {
+    font-family: Barlow;
+    // background-image: url(../../images/illustration-devices.svg);
+    // background-color: red($c);
+    // background: ;
+    // overflow: hidden;
+}
+
+.wrapper {
+    // padding: 5vh 5vw 0 10vw;
+}
+
+main {
+    margin-top: 20vh;
+}
+
+.container {
+    // display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-column-gap: 2.5rem;
+    // grid-row-gap: 2rem;
+    // overflow-x: hidden;
+}
+
+.margin-left {
+    // margin-left: 20vw;
+}
+
+// .bg {
+//     background: $gray-blue;
+//     background-repeat: repeat-y;
+//     background-size: 50% auto;
+// }
