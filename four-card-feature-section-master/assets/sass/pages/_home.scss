@@ -10,9 +10,10 @@ main {
         height: 300px;
         border-radius: 7px;
         border: 0;
-        box-shadow: 0 2.8px 2.2px $gray-blue, 0 .07px 0.4px $gray-blue, 0 1.5px 1px $gray-blue, 0 0.3px 0.9px $gray-blue, 0 1.8px 9.4px $gray-blue, 0 0px 0.2px $gray-blue;
+        box-shadow: 0 0px 0px $light-gray, 0 .0px 0.00px $light-gray, 0 0px 0.00px $light-gray, 0 0.00px 0.000px $light-gray, 0 0.8px 9.4px $gray-blue, 0 70px 0px $light-gray;
+        // box-shadow: 0 0.01px 0.02px $cyan, 0 0.02px 0.04px $cyan, 0 0.32px 0.32px $cyan, 0 0.32px 0.32px $cyan, 0 0.326px 0.32px $cyan, 0 1.32px 6.32px $cyan;
         p {
-            color: $blue;
+            color: $gray-blue;
             font-size: 15px;
         }
         h4 {
@@ -46,5 +47,5 @@ main {
 }
 
 .blue {
-    border-top: 5px solid $gray-blue !important;
+    border-top: 5px solid $blue !important;
 }
