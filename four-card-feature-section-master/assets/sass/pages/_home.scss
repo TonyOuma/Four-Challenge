@@ -15,7 +15,7 @@ main {
         height: 300px;
         border-radius: 7px;
         border: 0;
-        box-shadow: 0 0px 0px $light-gray, 0 .0px 0.00px $light-gray, 0 0px 0.00px $light-gray, 0 0.00px 0.000px $light-gray, 0 0.8px 9.4px $gray-blue, 0 70px 0px $light-gray;
+        box-shadow: -6px -6px 9px $light-gray, 0px 6px 19px rgba($gray-blue, 0.3);
         h4 {
             color: $dark-blue;
             font-weight: 600;
