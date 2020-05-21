@@ -8,8 +8,17 @@ main {
     margin-bottom: 10vh;
     .card {
         height: 300px;
-        border: none;
+        border-radius: 7px;
+        border: 0;
         box-shadow: 0 2.8px 2.2px $gray-blue, 0 .07px 0.4px $gray-blue, 0 1.5px 1px $gray-blue, 0 0.3px 0.9px $gray-blue, 0 1.8px 9.4px $gray-blue, 0 0px 0.2px $gray-blue;
+        p {
+            color: $blue;
+            font-size: 15px;
+        }
+        h4 {
+            color: $dark-blue;
+            font-weight: 600;
+        }
     }
 }
 
@@ -20,4 +29,22 @@ main {
 .img-pad {
     padding-right: 3vw;
     padding-bottom: 3vw;
+}
+
+%border-top {}
+
+.red {
+    border-top: 5px solid $primary-color !important;
+}
+
+.cyan {
+    border-top: 5px solid $cyan !important;
+}
+
+.orange {
+    border-top: 5px solid $orange !important;
+}
+
+.blue {
+    border-top: 5px solid $gray-blue !important;
 }

@@ -1,1 +1,14 @@
 // Header
+header {
+    h2 {
+        color: $dark-blue;
+        font-weight: 200;
+        span {
+            font-weight: 600;
+        }
+    }
+    p {
+        color: $blue;
+        font-size: 15px;
+    }
+}
