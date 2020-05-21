@@ -1,14 +1,7 @@
 // media-queries
-
 // small only
 @mixin small-only {
     @media screen and (max-width: 39.9375em) {
-        @content;
-    }
-}
-
-@mixin iPad {
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
         @content;
     }
 }
@@ -42,99 +35,16 @@
 }
 
 @include small-only {
-
-    .wrapper {
-        padding: 0 !important;
+    body {
+        padding: 2vh 4vw !important;
     }
-
-    header {
-        padding: 1rem 0;
-
-        .cart-items {
-            top: 21%;
-            right: 16px;
-        }
-
-        nav {
-            display: block;
-
-            img {
-                width: 70%;
-                padding-left: 29%;
-                padding-top: 4px;
-            }
-
-            ul {
-                margin-top: 1.0rem;
-                padding-bottom: 1rem;
-            }
-        }
+    .mar-center {
+        margin: 0 0 !important;
     }
-
-    .product {
-        hr {
-            width: 22.7% !important;
-            margin-left: 51% !important;
-
-        }
-
-        h2 {
-            text-align: center !important;
-        }
-    }
-
-    footer {
-        ul {
-            margin-top: 0;
-        }
-
-        h5 {
-            padding-top: 10px;
-        }
-    }
-
-    .cart {
-        width: 70%;
-    }
-
-    .ps-content {
-        padding: 4% 4% !important;
-
-        h2 {
-            &::after {
-                left: 52% !important;
-                width: 70px !important;
-            }
-
-        }
-    }
-
-    .tag-space {
-        padding: 4% 4% !important;
-    }
-
-    .reviews {
-        padding: 4% 4% !important;
-
-        h2 {
-            &::after {
-                left: 52% !important;
-                width: 70px !important;
-            }
-        }
-    }
-
-    .load a {
-        padding-right: 26% !important;
-    }
-}
-
-@include iPad {
-    header {
-
-
-        nav {
-            display: block !important;
+    main {
+        padding-top: 2vh !important;
+        .card {
+            padding: 2.0rem !important;
         }
     }
 }

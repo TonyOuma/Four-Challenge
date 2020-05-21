@@ -1,21 +1,21 @@
 body {
     background: $light-gray;
     padding: 2vh 10vw;
+    p {
+        color: $gray-blue;
+        font-size: 15px;
+    }
 }
 
 main {
     padding-top: 5vh;
     margin-bottom: 10vh;
     .card {
+        padding: 2.0rem;
         height: 300px;
         border-radius: 7px;
         border: 0;
         box-shadow: 0 0px 0px $light-gray, 0 .0px 0.00px $light-gray, 0 0px 0.00px $light-gray, 0 0.00px 0.000px $light-gray, 0 0.8px 9.4px $gray-blue, 0 70px 0px $light-gray;
-        // box-shadow: 0 0.01px 0.02px $cyan, 0 0.02px 0.04px $cyan, 0 0.32px 0.32px $cyan, 0 0.32px 0.32px $cyan, 0 0.326px 0.32px $cyan, 0 1.32px 6.32px $cyan;
-        p {
-            color: $gray-blue;
-            font-size: 15px;
-        }
         h4 {
             color: $dark-blue;
             font-weight: 600;
@@ -27,13 +27,10 @@ main {
     margin: 12% 0;
 }
 
-.img-pad {
-    padding-right: 3vw;
-    padding-bottom: 3vw;
-}
-
-%border-top {}
-
+// .img-pad {
+//     padding-right: 3vw;
+//     padding-bottom: 3vw;
+// }
 .red {
     border-top: 5px solid $primary-color !important;
 }
