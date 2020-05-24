@@ -1,6 +1,7 @@
 # Frontend Mentor - Four card feature section
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+![desktop-preview](https://user-images.githubusercontent.com/40301610/82751619-20a2a380-9dc1-11ea-97fe-8e369153de38.jpg)
+![mobile-design](https://user-images.githubusercontent.com/40301610/82751624-26988480-9dc1-11ea-8eab-f63f3c439bb9.jpg)
 
 ## Welcome! 👋
 
